@@ -56,8 +56,10 @@ export type ModelsGridProps = {
 }
 
 export type PillProps = {
-    children: ReactNode
+    children: string
     className?: string
+    role?: string
+    "aria-label"?: string
 }
 
 export type NavLinkProps = {
