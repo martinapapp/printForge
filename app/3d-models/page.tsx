@@ -1,5 +1,4 @@
 import Form from "next/form"
-
 import ModelsGrid from "@/app/components/ModelsGrid"
 import type { ModelsPageProps } from "@/app/types"
 import { getModels } from "@/app/lib/models"
